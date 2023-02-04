@@ -22,20 +22,31 @@ uvicorn main:app --reload
 
 The app root is <http://127.0.0.1:8000/>
 The path parameter is <http://127.0.0.1:8000/items/my-variable>
-The query parameter is http://127.0.0.1:8000/queries/?skip=1&limit=1
+The query parameter is <http://127.0.0.1:8000/queries/?skip=1&limit=1>
 
 The api doc is at <http://localhost:8000/docs> provided by <https://github.com/swagger-api/swagger-ui>
 
 Another api doc is at
 <http://127.0.0.1:8000/redoc> provided by <https://github.com/Redocly/redoc>
 
-## App2 upload, download, delete files
+## App2 restful
+
+```bash
+cd src/restful
+uvicorn main:app --reload
+```
+
+## App3 upload, download, delete files
 
 <https://senablog.com/python-fastapi-file-upload/>
 
-## App3 video streaming
+Coming soon...
+
+## App4 video streaming
 
 <https://koding.work/video-streaming-with-opencv-flask/>
+
+Coming soon...
 
 ## Trouble shooting
 
