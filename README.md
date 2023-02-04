@@ -54,6 +54,8 @@ Coming soon...
 
 Coming soon...
 
+## App5 bigger app <https://fastapi.tiangolo.com/tutorial/bigger-applications/>
+
 ## Trouble shooting
 
 Fatal detected dubious ownership in repository at '/com.docker.devenvironments.code'
