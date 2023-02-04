@@ -1,7 +1,5 @@
 # essential-fastapi
 
-<https://senablog.com/python-fastapi-file-upload/>
-
 ## Step1 Install python
 
 ```bash
@@ -13,16 +11,31 @@ source .venv/bin/activate
 pip install --upgrade -r requirements.txt
 ```
 
-## App1 Hello world app
+## App1 hello world app
+
+<https://fastapi.tiangolo.com/tutorial/first-steps/>
 
 ```bash
 cd src/hello_world
 uvicorn main:app --reload
 ```
 
+The app root is <http://127.0.0.1:8000/>
+The path parameter is <http://127.0.0.1:8000/items/my-variable>
+The query parameter is http://127.0.0.1:8000/queries/?skip=1&limit=1
 
-## App Hello world app
+The api doc is at <http://localhost:8000/docs> provided by <https://github.com/swagger-api/swagger-ui>
 
+Another api doc is at
+<http://127.0.0.1:8000/redoc> provided by <https://github.com/Redocly/redoc>
+
+## App2 upload, download, delete files
+
+<https://senablog.com/python-fastapi-file-upload/>
+
+## App3 video streaming
+
+<https://koding.work/video-streaming-with-opencv-flask/>
 
 ## Trouble shooting
 
