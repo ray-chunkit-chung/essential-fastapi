@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 
-DUMMY_DATA = [{"item_name": "Foo"}, {"item_name": "Bar"}, {"item_name": "Baz"}]
+DUMMY_ITEMS = [{"item_name": "Foo"}, {
+    "item_name": "Bar"}, {"item_name": "Baz"}]
 
 
 app = FastAPI()
@@ -18,4 +19,4 @@ async def read_item(item_id):
 
 @app.get("/queries/")
 async def query(skip: int = 0, limit: int = 10):
-    return DUMMY_DATA[skip: skip + limit]
+    return DUMMY_ITEMS[skip: skip + limit]
