@@ -2,9 +2,7 @@
 
 <https://senablog.com/python-fastapi-file-upload/>
 
-## Step1 Hello world app
-
-### Step1.1 Install python
+## Step1 Install python
 
 ```bash
 sudo apt-get -y update
@@ -15,12 +13,16 @@ source .venv/bin/activate
 pip install --upgrade -r requirements.txt
 ```
 
-### Step1.2 Hello world app
+## App1 Hello world app
 
 ```bash
 cd src/hello_world
 uvicorn main:app --reload
 ```
+
+
+## App Hello world app
+
 
 ## Trouble shooting
 
