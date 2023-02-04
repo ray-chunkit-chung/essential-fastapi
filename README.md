@@ -11,6 +11,12 @@ source .venv/bin/activate
 pip install --upgrade -r requirements.txt
 ```
 
+If windows,
+
+```cmd
+.venv/Scripts/activate
+```
+
 ## App1 hello world app
 
 <https://fastapi.tiangolo.com/tutorial/first-steps/>
