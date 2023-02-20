@@ -69,9 +69,23 @@ Coming soon...
 
 Coming soon...
 
-## App5 bigger app <https://fastapi.tiangolo.com/tutorial/bigger-applications/>
+## App5 bigger app
 
-## Trouble shooting
+<https://fastapi.tiangolo.com/tutorial/bigger-applications/>
+
+Coming soon...
+
+
+## App6 docker-fastapi
+
+Coming soon...
+
+## App7 docker-fastapi-nginx
+
+Coming soon...
+
+
+## Docker dev env trouble shooting
 
 Fatal detected dubious ownership in repository at '/com.docker.devenvironments.code'
 
