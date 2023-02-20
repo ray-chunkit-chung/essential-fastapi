@@ -75,15 +75,16 @@ Coming soon...
 
 Coming soon...
 
-
 ## App6 docker-fastapi
 
-Coming soon...
+```bash
+cd src/docker
+docker-compose up
+```
 
 ## App7 docker-fastapi-nginx
 
 Coming soon...
-
 
 ## Docker dev env trouble shooting
 
