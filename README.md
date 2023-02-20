@@ -2,19 +2,34 @@
 
 ## Step1 Install python
 
+Method 1: Python in apt-get
+
 ```bash
 sudo apt-get -y update
 sudo apt-get -y upgrade
 sudo apt-get install -y python3 python3-dev python3-venv
 python3 -m venv .venv
 source .venv/bin/activate
+#.venv/Scripts/activate  ## Windows
 pip install --upgrade -r requirements.txt
 ```
 
-If windows,
+Method 2: Python3.11 from tgz
 
-```cmd
-.venv/Scripts/activate
+```bash
+cd /tmp/
+wget https://www.python.org/ftp/python/3.11.1/Python-3.11.1.tgz
+tar -xzvf Python-3.11.1.tgz
+cd Python-3.11.1/
+apt update
+apt install -y build-essential zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev
+./configure --enable-optimizations
+make -j `nproc`
+make altinstall
+# ln -s /usr/local/bin/python3.11 /usr/local/bin/python
+python3.11 -m venv .venv
+source .venv/bin/activate
+pip install --upgrade -r requirements.txt
 ```
 
 ## App1 hello world app
