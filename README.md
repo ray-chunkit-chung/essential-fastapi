@@ -88,7 +88,14 @@ To be found at <http://127.0.0.1:8002/docs>
 
 ## App7 docker-fastapi-nginx
 
-Coming soon...
+Minimal web app behind proxy
+
+```bash
+cd src/docker-nginx
+docker-compose up
+```
+
+To be found at <http://127.0.0.1:8003/docs>
 
 ## Docker dev env trouble shooting
 
