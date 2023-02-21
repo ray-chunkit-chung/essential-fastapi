@@ -77,10 +77,14 @@ Coming soon...
 
 ## App6 docker-fastapi
 
+Minimal web app
+
 ```bash
 cd src/docker
 docker-compose up
 ```
+
+To be found at <http://127.0.0.1:8002/docs>
 
 ## App7 docker-fastapi-nginx
 
