@@ -97,6 +97,11 @@ docker-compose up
 
 To be found at <http://127.0.0.1:8003/docs>
 
+## App8 persist volume
+
+https://earthly.dev/blog/kubernetes-persistent-volumes/
+
+
 ## Docker dev env trouble shooting
 
 Fatal detected dubious ownership in repository at '/com.docker.devenvironments.code'
